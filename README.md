@@ -31,67 +31,67 @@ Este livro tem como foco conhecer a React do ponto de vista do desenvolvimento w
 
 # Checklist e detalhamento de conteúdo
 
-- [x] <span id="cap1">Capítulo 1</span> - Hello World
-    - [x] Instalação
-    - [x] Hello World com a React
-    - [x] O que aconteceu?
-    - [x] React.DOM.*
-    - [x] Atributos especiais do DOM
-    - [x] Extensão de navegador React e DevTools
-    - [x] A seguir: componentes personalizados
-- [x] <span id="cap2">Capítulo 2</span> - A vida de um componente
-    - [x] O mínimo necessário
-    - [x] Propriedades
-    - [x] propTypes
-    - [x] Valores default das propriedades
-    - [x] Estado
-    - [x] Um componente textarea com estado
-    - [x] Uma observação sobre eventos do DOM
-    - [x] Tratamento de eventos na React
-    - [x] Propriedades no estado inicial: um antipadrão
-    - [x] Acessando o componente de fora
-    - [x] Alterando as propriedades durante a execução
-    - [x] Métodos de ciclo de vida
-      - [x] compoentWillUpdate()
+- [ ] <span id="cap1">Capítulo 1</span> - Hello World
+    - [ ] Instalação
+    - [ ] Hello World com a React
+    - [ ] O que aconteceu?
+    - [ ] React.DOM.*
+    - [ ] Atributos especiais do DOM
+    - [ ] Extensão de navegador React e DevTools
+    - [ ] A seguir: componentes personalizados
+- [ ] <span id="cap2">Capítulo 2</span> - A vida de um componente
+    - [ ] O mínimo necessário
+    - [ ] Propriedades
+    - [ ] propTypes
+    - [ ] Valores default das propriedades
+    - [ ] Estado
+    - [ ] Um componente textarea com estado
+    - [ ] Uma observação sobre eventos do DOM
+    - [ ] Tratamento de eventos na React
+    - [ ] Propriedades no estado inicial: um antipadrão
+    - [ ] Acessando o componente de fora
+    - [ ] Alterando as propriedades durante a execução
+    - [ ] Métodos de ciclo de vida
+      - [ ] compoentWillUpdate()
         - Executa antes do método render() de seu componente ser chamado novamente (como resultado de mudanças nas propriedades ou no estado).
-      - [x] componentDidUpdate()
+      - [ ] componentDidUpdate()
         - Executado após o método render() ter sido concluído e as novas alterações no DOM subjacente terem sido aplicadas.
-      - [x] componentWillMount()
+      - [ ] componentWillMount()
         - Executado antes de o nó ser inserido no DOM
-      - [x] componentDidMount()
+      - [ ] componentDidMount()
         - Executado depois que o nó é inserido no DOM
-      - [x] componentWillUnmount()
+      - [ ] componentWillUnmount()
         - Executado imediatamente antes de o componente ser removido do DOM.
-      - [x] shouldComponentUpdate(newProps, newState)
+      - [ ] shouldComponentUpdate(newProps, newState)
         - Esse método é chamado antes de componentWillUpdate() e dá a você a oportunidade de executar um return false; e cancelar a atualização, o que significa que ser método render() não será chamado.
-    - [x] Exemplo de ciclo de vida: fazendo log de tudo
-    - [x] Exemplo de ciclo de vida: usando uma mixin
-    - [x] Exemplo de ciclo de vida: usando um componente-filho
-    - [x] Ganho de desempenho: evitando atualização de componentes
-    - [x] PureRenderMixin
+    - [ ] Exemplo de ciclo de vida: fazendo log de tudo
+    - [ ] Exemplo de ciclo de vida: usando uma mixin
+    - [ ] Exemplo de ciclo de vida: usando um componente-filho
+    - [ ] Ganho de desempenho: evitando atualização de componentes
+    - [ ] PureRenderMixin
 
-- [x] <span id="cap3">Capítulo 3</span> - Excel: um componente de tabela elegante
-    - [x] Primeiros dados
-    - [x] Laço para cabeçalho da tabela
-    - [x] Depurando o aviso do controle
-    - [x] Adicionando o conteúdo de `<td>`
-    - [x] Como podemos melhorar o componente?
-    - [x] Ordenação
-    - [x] Como podemos melhorar o componente?
-    - [x] Pistas sobre ordenação UI
-    - [x] Editando dados
-    - [x] Célula em que é possível editar
-    - [x] Célula com campo de entrada
-    - [x] Salvando
-    - [x] Conclusão e diferenças com o DOM virtual
-    - [x] Pesquisa
-    - [x] Estado e UI
-    - [x] Filtrando o conteúdo
-    - [x] Como podemos melhorar a pesquisa?
-    - [x] Reprodução instantânea
-    - [x] Como podemos melhorar a reprodução?
-    - [x] Uma implementação alternativa?
-    - [x] Download dos dados da tabela
+- [ ] <span id="cap3">Capítulo 3</span> - Excel: um componente de tabela elegante
+    - [ ] Primeiros dados
+    - [ ] Laço para cabeçalho da tabela
+    - [ ] Depurando o aviso do controle
+    - [ ] Adicionando o conteúdo de `<td>`
+    - [ ] Como podemos melhorar o componente?
+    - [ ] Ordenação
+    - [ ] Como podemos melhorar o componente?
+    - [ ] Pistas sobre ordenação UI
+    - [ ] Editando dados
+    - [ ] Célula em que é possível editar
+    - [ ] Célula com campo de entrada
+    - [ ] Salvando
+    - [ ] Conclusão e diferenças com o DOM virtual
+    - [ ] Pesquisa
+    - [ ] Estado e UI
+    - [ ] Filtrando o conteúdo
+    - [ ] Como podemos melhorar a pesquisa?
+    - [ ] Reprodução instantânea
+    - [ ] Como podemos melhorar a reprodução?
+    - [ ] Uma implementação alternativa?
+    - [ ] Download dos dados da tabela
 
 - [ ] <span id="cap4">Capítulo 4</span> - JSX
     - [ ] Hello JSX
